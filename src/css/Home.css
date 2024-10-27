@@ -1,0 +1,20 @@
+/* src/styles.css hoặc file CSS tương ứng */
+.content {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 20px; /* Khoảng cách giữa các phần */
+}
+
+.img {
+    flex: 15%; /* Chiếm một phần không gian */
+    margin-right: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
+}
+
+.img img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của khối chứa */
+    height: auto; /* Giữ tỷ lệ hình ảnh */
+}
+
+.content div {
+    flex: 66.67%; /* Chiếm phần không gian lớn hơn cho văn bản */
+}
