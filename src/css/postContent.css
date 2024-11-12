@@ -1,0 +1,20 @@
+.post-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.post-content img {
+    width: -webkit-fill-available;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post-content strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.post-content em {
+    font-style: italic;
+    color: #666;
+}
