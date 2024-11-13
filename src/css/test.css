@@ -1,0 +1,25 @@
+ p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ img {
+    width: -webkit-fill-available;
+    height: auto;
+    
+}
+
+ strong {
+    font-weight: bold;
+    color: #333;
+}
+
+ em {
+    font-style: italic;
+    color: #666;
+}
+
+figcaption {
+    justify-self: center;
+
+}
