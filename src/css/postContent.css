@@ -4,9 +4,10 @@
 }
 
 .post-content img {
-    width: -webkit-fill-available;
+    max-width: 75%;
     height: auto;
-    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 .post-content strong {
@@ -17,4 +18,17 @@
 .post-content em {
     font-style: italic;
     color: #666;
+}
+
+.post-content figcaption {
+    margin-top: 0.5em;
+    font-style: italic;
+
+
+}
+.post-content figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }

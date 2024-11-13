@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <main>
       <h2>Contact</h2>
-      <p>If you have any questions or would like to collaborate, please reach out via email: example@example.com</p>
+      <p>Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, vui lòng liên hệ qua email: Lephamnhatha0310@gmail.com</p>
     </main>
   );
 };

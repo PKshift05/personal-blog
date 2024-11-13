@@ -1,0 +1,39 @@
+/* Header container */
+header {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 0px; /* Space around the content */
+    text-align: center; /* Centered text */
+    font-size: 2em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    position: sticky; /* Sticks to top of the page when scrolling */
+    top: 0; /* Stick to the top */
+    z-index: 10; /* Keeps it above other content */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-left: 200px;
+}
+
+/* Header hover effect */
+header nav ul li:hover {
+    background-color: #444; /* Slightly darker on hover */
+    cursor: pointer;
+}
+header nav ul li{
+    padding: 32.5px;
+    margin: 0;
+    width: 25%;
+    margin-left: 20px;
+}
+/* Text styling */
+header h2 {
+    margin: 0; /* Remove margin around the heading */
+    font-family: 'Arial', sans-serif; /* Clean font style */
+    letter-spacing: 2px; /* Add spacing between letters */
+}

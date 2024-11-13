@@ -12,7 +12,7 @@ const Home = () => {
 
 
             </div>
-            <TestPost />
+            {/* <TestPost /> */}
             <PostList />
         </main>
     );
