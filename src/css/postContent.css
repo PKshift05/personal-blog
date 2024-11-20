@@ -32,3 +32,10 @@
     padding: 0;
     text-align: center;
 }
+
+
+.post-author{
+    display: flex;
+    justify-self: end;
+    padding: 20px;
+}

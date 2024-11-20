@@ -24,8 +24,13 @@ const PostDetail = () => {
         <main>
             <h1>{post.title}</h1>
             <div className="post-content" dangerouslySetInnerHTML={{ __html: post.content }} />
+            <div className="post-author">
+                <strong>
+                    Thực hiện bởi: {post.author}
+                </strong>
+            </div>
         </main>
-        
+
 
     );
 };
